@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ru"
+      dir="ltr"
+      class="dark-mode ">
+<head>
+    <title>Настройки | Гусиные истории</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="token" content="4BYWpYU1ZxJBEx330onRMYVEUzGMvMQWdPh26txk">
+    <meta name="base-url" content="http://localhost/bookstack">
+    <meta name="theme-color" content="#004e8a"/>
+
+    <!-- Social Cards Meta -->
+    <meta property="og:title" content="Настройки | Гусиные истории">
+    <meta property="og:url" content="http://localhost/bookstack/settings/customization">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../dist/styles.css@version=v24.10.1.css">
+
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="256x256" href="../uploads/images/system/2024-11/C2nimages-2.jpg">
+    <link rel="icon" type="image/png" sizes="180x180" href="../uploads/images/system/2024-11/YYGimages-2.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="../uploads/images/system/2024-11/YYGimages-2.jpg">
+    <link rel="icon" type="image/png" sizes="128x128" href="../uploads/images/system/2024-11/ZBlimages-2.jpg">
+    <link rel="icon" type="image/png" sizes="64x64" href="../uploads/images/system/2024-11/Q3wimages-2.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="../uploads/images/system/2024-11/TRjimages-2.jpg">
+
+    <!-- PWA -->
+    <link rel="manifest" href="../manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- OpenSearch -->
+    <link rel="search" type="application/opensearchdescription+xml" title="Гусиные истории" href="../opensearch.xml">
+
+    <!-- Custom Styles & Head Content -->
+    <style>
+    :root {
+        --color-primary: #004e8a;
+        --color-primary-light: rgba(0,78,138,0.15);
+        --color-link: #bc00f0;
+        --color-bookshelf: #8ad2ff;
+        --color-book: #8bfeb7;
+        --color-chapter: #9bff70;
+        --color-page: #429fe3;
+        --color-page-draft: #a66ce8;
+    }
+</style>
+    
+    
+    <!-- Translations for JS -->
+    </head>
+<body
+          class="">
+
+        <a class="px-m py-s skip-to-content-link print-hidden" href="customization.html#main-content">Перейти к основному контенту</a>    <div component="notification"
+     option:notification:type="success"
+     option:notification:auto-hide="true"
+     option:notification:show="false"
+     style="display: none;"
+     class="notification pos"
+     role="alert">
+    <svg class="svg-icon" data-icon="check-circle" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg> <span></span><div class="dismiss"><svg class="svg-icon" data-icon="close" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></div>
+</div>
+
+<div component="notification"
+     option:notification:type="warning"
+     option:notification:auto-hide="false"
+     option:notification:show="false"
+     style="display: none;"
+     class="notification warning"
+     role="alert">
+    <svg class="svg-icon" data-icon="info" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M11 17h2v-6h-2zm1-15C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8M11 9h2V7h-2z"/></svg> <span></span><div class="dismiss"><svg class="svg-icon" data-icon="close" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></div>
+</div>
+
+<div component="notification"
+     option:notification:type="error"
+     option:notification:auto-hide="false"
+     option:notification:show="false"
+     style="display: none;"
+     class="notification neg"
+     role="alert">
+    <svg class="svg-icon" data-icon="danger" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.73 3H8.27L3 8.27v7.46L8.27 21h7.46L21 15.73V8.27zM12 17.3c-.72 0-1.3-.58-1.3-1.3s.58-1.3 1.3-1.3 1.3.58 1.3 1.3-.58 1.3-1.3 1.3m1-4.3h-2V7h2z"/><path fill="none" d="M0 0h24v24H0z"/></svg> <span></span><div class="dismiss"><svg class="svg-icon" data-icon="close" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></div>
+</div>    <header id="header" component="header-mobile-toggle" class="primary-background px-xl grid print-hidden">
+    <div class="flex-container-row justify-space-between gap-s items-center">
+        <a href="http://localhost/bookstack" data-shortcut="home_view" class="logo">
+            <img class="logo-image" src="../uploads/images/system/2024-11/images-2.jpg" alt="Logo">
+                <span class="logo-text">Гусиные истории</span>
+    </a>        <div class="hide-over-l py-s">
+            <button type="button"
+                    refs="header-mobile-toggle@toggle"
+                    title="Развернуть меню заголовка"
+                    aria-expanded="false"
+                    class="mobile-menu-toggle"><svg class="svg-icon" data-icon="more" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m0 2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2m0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2"/></svg></button>
+        </div>
+    </div>
+
+    <div class="flex-container-column items-center justify-center hide-under-l">
+            <form component="global-search" action="../search.html" method="GET" class="search-box" role="search" tabindex="0">
+    <button id="header-search-box-button"
+            refs="global-search@button"
+            type="submit"
+            aria-label="Поиск"
+            tabindex="-1"><svg class="svg-icon" data-icon="search" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"/><path fill="none" d="M0 0h24v24H0z"/></svg></button>
+    <input id="header-search-box-input"
+           refs="global-search@input"
+           type="text"
+           name="term"
+           data-shortcut="global_search"
+           autocomplete="off"
+           aria-label="Поиск" placeholder="Поиск"
+           value="">
+    <div refs="global-search@suggestions" class="global-search-suggestions card">
+        <div refs="global-search@loading" class="text-center px-m global-search-loading"><div class="loading-container">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div></div>
+        <div refs="global-search@suggestion-results" class="px-m"></div>
+        <button class="text-button card-footer-link" type="submit">Показать все</button>
+    </div>
+</form>        </div>
+
+    <nav refs="header-mobile-toggle@menu" class="header-links">
+        <div class="links text-center">
+            <a class="hide-over-l" href="../search.html"><svg class="svg-icon" data-icon="search" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.47 6.47 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14"/><path fill="none" d="M0 0h24v24H0z"/></svg>Поиск</a>
+            <a href="../shelves.html"
+           data-shortcut="shelves_view"><svg class="svg-icon" data-icon="bookshelf" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path fill="none" d="M1.088 2.566h17.42v17.42H1.088z"/><path d="M4 20.058h15.892V22H4z"/><path fill="none" d="M2.902 1.477h17.42v17.42H2.903z"/><path d="M6.658 3.643V18h-2.38V3.643zm4.668 0V18H8.947V3.643zm3.396.213 5.613 13.214-2.19.93-5.613-13.214z"/></svg>Крыло</a>
+        <a href="../books.html" data-shortcut="books_view"><svg class="svg-icon" data-icon="books" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.252 1.708H8.663a1.77 1.77 0 0 0-1.765 1.764v14.12c0 .97.794 1.764 1.765 1.764h10.59a1.77 1.77 0 0 0 1.764-1.765V3.472a1.77 1.77 0 0 0-1.765-1.764M8.663 3.472h4.412v7.06L10.87 9.208l-2.206 1.324z"/><path fill="none" d="M30.61 3.203h24v24h-24z"/><path d="M2.966 6.61v14c0 1.1.9 2 2 2h14v-2h-14v-14z"/></svg>Перья</a>
+            <a href="../settings.html"
+           data-shortcut="settings_view"><svg class="svg-icon" data-icon="settings" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65A.49.49 0 0 0 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5"/></svg>Настройки</a>
+        
+        </div>
+                    <div class="dropdown-container" component="dropdown" option:dropdown:bubble-escapes="true">
+    <span class="user-name py-s hide-under-l" refs="dropdown@toggle"
+          aria-haspopup="true" aria-expanded="false" aria-label="Меню профиля" tabindex="0">
+        <img class="avatar" src="../user_avatar.png" alt="DA/UL">
+        <span class="name">DA/UL</span> <svg class="svg-icon" data-icon="caret-down" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m7 10 5 5 5-5z"/><path fill="none" d="M0 0h24v24H0z"/></svg>    </span>
+    <ul refs="dropdown@menu" class="dropdown-menu" role="menu">
+        <li>
+            <a href="../favourites.html" data-shortcut="favourites_view" class="icon-item">
+                <svg class="svg-icon" data-icon="star" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path fill="none" d="M0 0h24v24H0z"/></svg>                <div>Мое избранное</div>
+            </a>
+        </li>
+        <li>
+            <a href="../user/daul.html" data-shortcut="profile_view" class="icon-item">
+                <svg class="svg-icon" data-icon="user" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4m0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4"/><path fill="none" d="M0 0h24v24H0z"/></svg>                <div>Посмотреть профиль</div>
+            </a>
+        </li>
+        <li>
+            <a href="../my-account.html" class="icon-item">
+                <svg class="svg-icon" data-icon="user-preferences" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="10" cy="8" r="4"/><path d="M10.67 13.02c-.22-.01-.44-.02-.67-.02-2.42 0-4.68.67-6.61 1.82-.88.52-1.39 1.5-1.39 2.53V20h9.26a6.96 6.96 0 0 1-.59-6.98M20.75 16c0-.22-.03-.42-.06-.63l1.14-1.01-1-1.73-1.45.49q-.48-.405-1.08-.63L18 11h-2l-.3 1.49q-.6.225-1.08.63l-1.45-.49-1 1.73 1.14 1.01c-.03.21-.06.41-.06.63s.03.42.06.63l-1.14 1.01 1 1.73 1.45-.49q.48.405 1.08.63L16 21h2l.3-1.49q.6-.225 1.08-.63l1.45.49 1-1.73-1.14-1.01c.03-.21.06-.41.06-.63M17 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2"/></svg>                <div>Моя учетная запись</div>
+            </a>
+        </li>
+        <li><hr></li>
+        <li>
+            <form action="http://localhost/bookstack/preferences/toggle-dark-mode" method="post">
+    <input type="hidden" name="_token" value="4BYWpYU1ZxJBEx330onRMYVEUzGMvMQWdPh26txk" autocomplete="off">
+    <input type="hidden" name="_method" value="patch">
+    <input type="hidden" name="_return" value="http://localhost/bookstack/settings/customization">
+            <button class="icon-item"><span><svg class="svg-icon" data-icon="light-mode" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 15.31 23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6"/></svg></span><span>Светлый режим</span></button>
+    </form>        </li>
+        <li><hr></li>
+        <li>
+                        <form action="http://localhost/bookstack/logout" method="post">
+                <input type="hidden" name="_token" value="4BYWpYU1ZxJBEx330onRMYVEUzGMvMQWdPh26txk" autocomplete="off">
+                <button class="icon-item" data-shortcut="logout">
+                    <svg class="svg-icon" data-icon="logout" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="m14.29 8.207 1.41-1.41 5 5-5 5-1.41-1.41 2.58-2.59H7.2v-2h9.67zM5 3h14a2 2 0 0 1 2 2v4h-2V5H5v14h14v-4h2v4a2 2 0 0 1-2 2H5c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2"/></svg>                    <div>Выход</div>
+                </button>
+            </form>
+        </li>
+    </ul>
+</div>            </nav>
+</header>
+
+    <div id="content" components="" class="block">
+        
+    <div class="flex-fill flex">
+        <div class="content flex">
+            <div id="main-content" class="scroll-body">
+                    <div class="container medium">
+
+        <nav class="active-link-list py-m flex-container-row justify-center wrap">
+            <a href="../settings.html"  class="active" ><svg class="svg-icon" data-icon="settings" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65A.49.49 0 0 0 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5"/></svg>Настройки</a>
+        <a href="maintenance.html" ><svg class="svg-icon" data-icon="spanner" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z" clip-rule="evenodd"/><path d="m22.7 19-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4"/></svg>Обслуживание</a>
+                <a href="audit.html" ><svg class="svg-icon" data-icon="open-book" role="presentation"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24"><defs><path id="a" d="M0 0h24v24H0z"/></defs><clipPath id="b"><use xlink:href="#a" overflow="visible"/></clipPath><path d="M21 5c-1.11-.35-2.33-.5-3.5-.5-1.95 0-4.05.4-5.5 1.5-1.45-1.1-3.55-1.5-5.5-1.5S2.45 4.9 1 6v14.65c0 .25.25.5.5.5.1 0 .15-.05.25-.05C3.1 20.45 5.05 20 6.5 20c1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.3 4.75 1.05.1.05.15.05.25.05.25 0 .5-.25.5-.5V6c-.6-.45-1.25-.75-2-1m0 13.5c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V8c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5z" clip-path="url(#b)"/></svg>Журнал аудита</a>
+                <a href="users.html" ><svg class="svg-icon" data-icon="users" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3m-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3m0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5m8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5"/></svg>Пользователи</a>
+                <a href="roles.html" ><svg class="svg-icon" data-icon="lock-open" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 17c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2m6-9h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6h1.9c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2m0 12H6V10h12z"/></svg>Роли</a>
+                <a href="webhooks.html" ><svg class="svg-icon" data-icon="webhooks" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 15h5.88c.27-.31.67-.5 1.12-.5.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5c-.44 0-.84-.19-1.12-.5H11.9A5 5 0 1 1 6 11.1v2.07c-1.16.41-2 1.53-2 2.83 0 1.65 1.35 3 3 3s3-1.35 3-3zm2.5-11c1.65 0 3 1.35 3 3h2c0-2.76-2.24-5-5-5a5.002 5.002 0 0 0-3.45 8.62l-2.35 3.9c-.68.14-1.2.75-1.2 1.48 0 .83.67 1.5 1.5 1.5a1.498 1.498 0 0 0 1.43-1.95l3.38-5.63A3 3 0 0 1 9.5 7c0-1.65 1.35-3 3-3m4.5 9c-.64 0-1.23.2-1.72.54l-3.05-5.07C11.53 8.35 11 7.74 11 7c0-.83.67-1.5 1.5-1.5S14 6.17 14 7c0 .15-.02.29-.06.43l2.19 3.65c.28-.05.57-.08.87-.08 2.76 0 5 2.24 5 5s-2.24 5-5 5a5 5 0 0 1-4.33-2.5h2.67c.48.32 1.05.5 1.66.5 1.65 0 3-1.35 3-3s-1.35-3-3-3"/></svg>Вебхуки</a>
+    </nav>
+        <div class="grid gap-xxl right-focus">
+
+            <div>
+                <h5>Категории</h5>
+                <nav class="active-link-list in-sidebar">
+                    <a href="../settings.html" class=""><svg class="svg-icon" data-icon="star" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/><path fill="none" d="M0 0h24v24H0z"/></svg> Функционал и безопасность</a>
+                    <a href="customization.html" class="active"><svg class="svg-icon" data-icon="palette" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10a2.5 2.5 0 0 0 2.5-2.5c0-.61-.23-1.2-.64-1.67a.53.53 0 0 1-.13-.33c0-.28.22-.5.5-.5H16c3.31 0 6-2.69 6-6 0-4.96-4.49-9-10-9m5.5 11c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5m-3-4c-.83 0-1.5-.67-1.5-1.5S13.67 6 14.5 6s1.5.67 1.5 1.5S15.33 9 14.5 9M5 11.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5S7.33 13 6.5 13 5 12.33 5 11.5m6-4c0 .83-.67 1.5-1.5 1.5S8 8.33 8 7.5 8.67 6 9.5 6s1.5.67 1.5 1.5"/></svg> Настройки</a>
+                    <a href="registration.html" class=""><svg class="svg-icon" data-icon="security" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2m-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2m3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1s3.1 1.39 3.1 3.1z"/></svg> Настройки регистрации</a>
+                </nav>
+
+                <h5 class="mt-xl">Версия системы</h5>
+                <div class="py-xs">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/BookStackApp/BookStack/releases">
+                        BookStack  v24.10.1
+                    </a>
+                    <br>
+                    <a target="_blank" href="../licenses.html" class="text-muted">Подробности о лицензии</a>
+                </div>
+            </div>
+
+            <div>
+                <div class="card content-wrap auto-height">
+                        <h1 id="customization" class="list-heading">Настройки</h1>
+    <form action="customization.html" method="POST" enctype="multipart/form-data">
+        <input type="hidden" name="_token" value="4BYWpYU1ZxJBEx330onRMYVEUzGMvMQWdPh26txk" autocomplete="off">
+        <input type="hidden" name="section" value="customization">
+
+        <div class="setting-list">
+
+            <div class="grid half gap-xl">
+                <div>
+                    <label for="setting-app-name" class="setting-list-label">Название приложения</label>
+                    <p class="small">Название отображается в заголовках и сообщениях электронной почты отправленных системой.</p>
+                </div>
+                <div class="pt-xs">
+                    <input type="text" value="Гусиные истории" name="setting-app-name" id="setting-app-name">
+                    <label components="custom-checkbox toggle-switch" class="toggle-switch">
+    <input type="hidden" name="setting-app-name-header" value="true"/>
+    <input type="checkbox"  checked="checked" >
+    <span tabindex="0" role="checkbox"
+          aria-checked="true"
+          class="custom-checkbox text-primary"><svg class="svg-icon" data-icon="check" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.86 4.118-9.733 9.609-3.951-3.995-2.98 2.966 6.93 7.184L21.805 7.217z"/></svg></span>
+    <span class="label">Отображать название приложения в заголовке</span>
+</label>                </div>
+            </div>
+
+            <div class="grid half gap-xl items-center">
+                <div>
+                    <label class="setting-list-label" for="setting-app-editor">Редактор страниц по умолчанию</label>
+                    <p class="small">Выберите, какой редактор будет использоваться по умолчанию при редактировании новых страниц. Это может быть переопределено на уровне страницы, где разрешены права.</p>
+                </div>
+                <div>
+                    <select name="setting-app-editor" id="setting-app-editor">
+                        <option  value="wysiwyg">WYSIWYG</option>
+                        <option  selected  value="markdown">Markdown</option>
+                        <option  value="wysiwyg2024">New WYSIWYG (alpha testing)</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="grid half gap-xl">
+                <div>
+                    <label class="setting-list-label">Логотип приложения</label>
+                    <p class="small">Используется в строке заголовка приложения, среди прочих областей. Это изображение должно быть 86px в высоте. Большие изображения будут масштабироваться вниз.</p>
+                </div>
+                <div class="pt-xs">
+                    <div component="image-picker"
+     option:image-picker:default-image="http://localhost/bookstack/logo.png"
+     class="image-picker ">
+
+    <div class="grid half">
+        <div class="text-center">
+            <img refs="image-picker@image"
+                 src="../uploads/images/system/2024-11/images-2.jpg"                 class="logo-image " alt="Предпросмотр изображения">
+        </div>
+        <div class="text-center">
+            <input refs="image-picker@image-input" type="file" class="custom-file-input" accept="image/*" name="app_logo" id="app_logo">
+            <label for="app_logo" class="button outline">Выбрать изображение</label>
+            <input refs="image-picker@reset-input" type="hidden" name="app_logo_reset" value="true" disabled="disabled">
+                            <input refs="image-picker@remove-input" type="hidden" name="setting-app-logo" value="none" disabled="disabled">
+            
+            <br>
+            <button refs="image-picker@reset-button" class="text-button text-muted" type="button">Сбросить</button>
+
+                            <span class="sep">|</span>
+                <button refs="image-picker@remove-button" class="text-button text-muted" type="button">Удалить</button>
+                    </div>
+    </div>
+
+    
+</div>                </div>
+            </div>
+
+            <div class="grid half gap-xl">
+                <div>
+                    <label class="setting-list-label">Иконка приложения</label>
+                    <p class="small">Эта иконка используется для браузерных вкладок и иконок ярлыков. Должно быть 256px квадратное PNG изображение.</p>
+                </div>
+                <div class="pt-xs">
+                    <div component="image-picker"
+     option:image-picker:default-image="http://localhost/bookstack/icon.png"
+     class="image-picker ">
+
+    <div class="grid half">
+        <div class="text-center">
+            <img refs="image-picker@image"
+                 src="../uploads/images/system/2024-11/C2nimages-2.jpg"                 class="logo-image " alt="Предпросмотр изображения">
+        </div>
+        <div class="text-center">
+            <input refs="image-picker@image-input" type="file" class="custom-file-input" accept="image/*" name="app_icon" id="app_icon">
+            <label for="app_icon" class="button outline">Выбрать изображение</label>
+            <input refs="image-picker@reset-input" type="hidden" name="app_icon_reset" value="true" disabled="disabled">
+            
+            <br>
+            <button refs="image-picker@reset-button" class="text-button text-muted" type="button">Сбросить</button>
+
+                    </div>
+    </div>
+
+    
+</div>                </div>
+            </div>
+
+            <!-- App Color Scheme -->
+                        <div component="setting-app-color-scheme"
+                 option:setting-app-color-scheme:mode="dark"
+                 class="pb-l">
+                <div class="mb-l">
+                    <label class="setting-list-label">Цветовая схема приложения</label>
+                    <p class="small">Установите цвета для использования в пользовательском интерфейсе. Цвета могут быть настроены отдельно для темных и светлых режимов, чтобы наилучшим образом соответствовать теме и обеспечить разборчивость.</p>
+                </div>
+
+                <div component="tabs" class="tab-container">
+                    <div role="tablist" class="controls-card">
+                        <button type="button"
+                                role="tab"
+                                id="color-scheme-tab-light"
+                                aria-selected="false"
+                                aria-controls="color-scheme-panel-light"><svg class="svg-icon" data-icon="light-mode" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 15.31 23.31 12 20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6"/></svg>Светлый режим</button>
+                        <button type="button"
+                                role="tab"
+                                id="color-scheme-tab-dark"
+                                aria-selected="true"
+                                aria-controls="color-scheme-panel-dark"><svg class="svg-icon" data-icon="dark-mode" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 2c-1.82 0-3.53.5-5 1.35C7.99 5.08 10 8.3 10 12s-2.01 6.92-5 8.65C6.47 21.5 8.18 22 10 22c5.52 0 10-4.48 10-10S15.52 2 10 2"/></svg>Темный режим</button>
+                    </div>
+                    <div class="sub-card">
+                        <div id="color-scheme-panel-light"
+                             refs="setting-app-color-scheme@lightContainer"
+                             tabindex="0"
+                             role="tabpanel"
+                             aria-labelledby="color-scheme-tab-light"
+                              hidden                              class="p-m">
+                            <p class="small">Задайте основной цвет приложения и цвет ссылок по умолчанию. Основной цвет используется в основном для баннера заголовка, кнопок и декораций интерфейса. Цвет ссылок по умолчанию используется для текстовых ссылок и действий как в письменном содержании, так и в прикладном интерфейсе.</p>
+<div class="grid half pt-m">
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#206ea7"
+     option:setting-color-picker:current="#206ea7"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-app-color" class="text-dark">Основной цвет</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#206ea7"
+               name="setting-app-color"
+               id="setting-app-color"
+               placeholder="#206ea7"
+               class="small">
+    </div>
+</div>
+    </div>
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#206ea7"
+     option:setting-color-picker:current="#206ea7"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-link-color" class="text-dark">Цвет ссылки</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#206ea7"
+               name="setting-link-color"
+               id="setting-link-color"
+               placeholder="#206ea7"
+               class="small">
+    </div>
+</div>
+    </div>
+</div>
+<hr>
+<p class="small">Задает цвета для всех элементов организационной иерархии страницы. Для удобства чтения рекомендуется выбирать цвета, яркость которых близка к цветам по умолчанию.</p>
+<div class="grid half pt-m">
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#a94747"
+     option:setting-color-picker:current="#a94747"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-bookshelf-color" class="text-dark">Цвет полки</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#a94747"
+               name="setting-bookshelf-color"
+               id="setting-bookshelf-color"
+               placeholder="#a94747"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#077b70"
+     option:setting-color-picker:current="#077b70"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-book-color" class="text-dark">Цвет книги</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#077b70"
+               name="setting-book-color"
+               id="setting-book-color"
+               placeholder="#077b70"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#af4d0d"
+     option:setting-color-picker:current="#af4d0d"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-chapter-color" class="text-dark">Цвет главы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#af4d0d"
+               name="setting-chapter-color"
+               id="setting-chapter-color"
+               placeholder="#af4d0d"
+               class="small">
+    </div>
+</div>
+    </div>
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#206ea7"
+     option:setting-color-picker:current="#206ea7"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-page-color" class="text-dark">Цвет страницы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#206ea7"
+               name="setting-page-color"
+               id="setting-page-color"
+               placeholder="#206ea7"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#7e50b1"
+     option:setting-color-picker:current="#7e50b1"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-page-draft-color" class="text-dark">Цвет черновика страницы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#7e50b1"
+               name="setting-page-draft-color"
+               id="setting-page-draft-color"
+               placeholder="#7e50b1"
+               class="small">
+    </div>
+</div>
+    </div>
+</div>
+
+<input type="hidden"
+       value="rgba(32,110,167,0.15)"
+       name="setting-app-color-light">                        </div>
+                        <div id="color-scheme-panel-dark"
+                             refs="setting-app-color-scheme@darkContainer"
+                             tabindex="0"
+                             role="tabpanel"
+                             aria-labelledby="color-scheme-tab-light"
+                                                          class="p-m">
+                            <p class="small">Задайте основной цвет приложения и цвет ссылок по умолчанию. Основной цвет используется в основном для баннера заголовка, кнопок и декораций интерфейса. Цвет ссылок по умолчанию используется для текстовых ссылок и действий как в письменном содержании, так и в прикладном интерфейсе.</p>
+<div class="grid half pt-m">
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#195785"
+     option:setting-color-picker:current="#004e8a"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-app-color-dark" class="text-dark">Основной цвет</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#004e8a"
+               name="setting-app-color-dark"
+               id="setting-app-color-dark"
+               placeholder="#195785"
+               class="small">
+    </div>
+</div>
+    </div>
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#429fe3"
+     option:setting-color-picker:current="#bc00f0"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-link-color-dark" class="text-dark">Цвет ссылки</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#bc00f0"
+               name="setting-link-color-dark"
+               id="setting-link-color-dark"
+               placeholder="#429fe3"
+               class="small">
+    </div>
+</div>
+    </div>
+</div>
+<hr>
+<p class="small">Задает цвета для всех элементов организационной иерархии страницы. Для удобства чтения рекомендуется выбирать цвета, яркость которых близка к цветам по умолчанию.</p>
+<div class="grid half pt-m">
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#ff5454"
+     option:setting-color-picker:current="#8ad2ff"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-bookshelf-color-dark" class="text-dark">Цвет полки</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#8ad2ff"
+               name="setting-bookshelf-color-dark"
+               id="setting-bookshelf-color-dark"
+               placeholder="#ff5454"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#389f60"
+     option:setting-color-picker:current="#8bfeb7"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-book-color-dark" class="text-dark">Цвет книги</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#8bfeb7"
+               name="setting-book-color-dark"
+               id="setting-book-color-dark"
+               placeholder="#389f60"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#ee7a2d"
+     option:setting-color-picker:current="#9bff70"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-chapter-color-dark" class="text-dark">Цвет главы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#9bff70"
+               name="setting-chapter-color-dark"
+               id="setting-chapter-color-dark"
+               placeholder="#ee7a2d"
+               class="small">
+    </div>
+</div>
+    </div>
+    <div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#429fe3"
+     option:setting-color-picker:current="#429fe3"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-page-color-dark" class="text-dark">Цвет страницы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#429fe3"
+               name="setting-page-color-dark"
+               id="setting-page-color-dark"
+               placeholder="#429fe3"
+               class="small">
+    </div>
+</div>
+        <div component="setting-color-picker"
+     option:setting-color-picker:default="#a66ce8"
+     option:setting-color-picker:current="#a66ce8"
+     class="grid no-break half mb-l">
+    <div>
+        <label for="setting-page-draft-color-dark" class="text-dark">Цвет черновика страницы</label>
+        <button refs="setting-color-picker@default-button" type="button" class="text-button text-muted">По умолчанию</button>
+        <span class="sep">|</span>
+        <button refs="setting-color-picker@reset-button" type="button" class="text-button text-muted">Сбросить</button>
+    </div>
+    <div>
+        <input type="color"
+               refs="setting-color-picker@input"
+               value="#a66ce8"
+               name="setting-page-draft-color-dark"
+               id="setting-page-draft-color-dark"
+               placeholder="#a66ce8"
+               class="small">
+    </div>
+</div>
+    </div>
+</div>
+
+<input type="hidden"
+       value="rgba(0,78,138,0.15)"
+       name="setting-app-color-light-dark">                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div component="setting-homepage-control" id="homepage-control" class="grid half gap-xl items-center">
+                <div>
+                    <label for="setting-app-homepage-type" class="setting-list-label">Стартовая страница приложения</label>
+                    <p class="small">Выберите страницу, которая будет отображаться на главной странице вместо стандартной. Права на страницы игнорируются для выбранных страниц.</p>
+                </div>
+                <div>
+                    <select refs="setting-homepage-control@type-control"
+                            name="setting-app-homepage-type"
+                            id="setting-app-homepage-type">
+                        <option  selected  value="default">По умолчанию</option>
+                        <option  value="books">Перья</option>
+                        <option  value="bookshelves">Крыло</option>
+                        <option  value="page">Конкретная страница</option>
+                    </select>
+
+                    <div refs="setting-homepage-control@page-picker-container" style="display: none;" class="mt-m">
+                        <div component="page-picker"
+     option:page-picker:selector-endpoint="/search/entity-selector">
+    <div class="input-base overflow-hidden height-auto">
+        <span  refs="page-picker@default-display" class="text-muted italic">Выберите страницу</span>
+        <a  hidden  href="http://localhost/bookstack/link" target="_blank" rel="noopener" class="text-page" refs="page-picker@display">#, </a>
+    </div>
+    <br>
+    <input refs="page-picker@input" type="hidden" value="" name="setting-app-homepage" id="setting-app-homepage">
+    <button  hidden  type="button" refs="page-picker@reset-button" class="text-button">Сбросить</button>
+    <span refs="page-picker@button-seperator"  hidden  class="sep">|</span>
+    <button type="button" refs="page-picker@select-button" class="text-button">Выбрать</button>
+</div>                    </div>
+                </div>
+            </div>
+
+            <div>
+                <label for="setting-app-privacy-link" class="setting-list-label">Ссылки в нижней части страницы</label>
+                <p class="small mb-m">Добавьте ссылки для отображения в нижнем колонтитуле сайта. Они будут отображаться в нижней части большинства страниц, включая те, которые не требуют входа. Вы можете использовать метку &quot;trans::&lt;key&gt;&quot; для использования системных переводов. Например: Использование &quot;trans::common.privacy_policy&quot; обеспечит перевод текста &quot;Политика конфиденциальности&quot; и &quot;trans:common.terms_of_service&quot; предоставит переведенный текст &quot;Правила использования&quot;.</p>
+                <div components="add-remove-rows"
+     option:add-remove-rows:row-selector=".card"
+     option:add-remove-rows:remove-selector="button.text-neg">
+
+    <div component="sortable-list"
+         option:sortable-list:handle-selector=".handle">
+                    <div class="card drag-card hidden"  refs="add-remove-rows@model" >
+                <div class="handle"><svg class="svg-icon" data-icon="grip" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"/></svg></div>
+                                    <div class="outline">
+                        <input value=""
+                               placeholder="Название ссылки"
+                               aria-label="Название ссылки"
+                               name="setting-app-footer-links[randrowid][label]"
+                               type="text"
+                               autocomplete="off"/>
+                    </div>
+                                    <div class="outline">
+                        <input value=""
+                               placeholder="Адрес ссылки"
+                               aria-label="Адрес ссылки"
+                               name="setting-app-footer-links[randrowid][url]"
+                               type="text"
+                               autocomplete="off"/>
+                    </div>
+                                <button type="button"
+                        aria-label="Удалить"
+                        class="text-center drag-card-action text-neg">
+                    <svg class="svg-icon" data-icon="close" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>                </button>
+            </div>
+            </div>
+
+    <button refs="add-remove-rows@add" type="button" class="text-button">Добавить ссылку</button>
+</div>            </div>
+
+
+            <div>
+                <label for="setting-app-custom-head" class="setting-list-label">Пользовательский контент заголовка HTML</label>
+                <p class="small">Любой контент, добавленный здесь, будет вставлен в нижнюю часть раздела &lt;head&gt; каждой страницы. Это удобно для переопределения стилей или добавления кода аналитики.</p>
+                <div class="mt-m">
+                    <textarea component="code-textarea"
+                              option:code-textarea:mode="html"
+                              name="setting-app-custom-head"
+                              id="setting-app-custom-head"
+                              class="simple-code-input"></textarea>
+                </div>
+                <p class="small text-right">Пользовательский контент заголовка HTML отключен на этой странице, чтобы гарантировать отмену любых критических изменений.</p>
+            </div>
+
+
+        </div>
+
+        <div class="form-group text-right">
+            <button type="submit" class="button">Сохранить настройки</button>
+        </div>
+    </form>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+        <div id="entity-selector-wrap">
+    <div components="popup entity-selector-popup" class="popup-background">
+        <div class="popup-body small" tabindex="-1">
+            <div class="popup-header primary-background">
+                <div class="popup-title">Выбор объекта</div>
+                <button refs="popup@hide" type="button" class="popup-header-close"><svg class="svg-icon" data-icon="close" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg></button>
+            </div>
+            <div class="form-group entity-selector-container">
+    <div component="entity-selector"
+         refs="entity-selector-popup@selector"
+         class="entity-selector "
+         option:entity-selector:entity-types="book,chapter,page"
+         option:entity-selector:entity-permission="view"
+         option:entity-selector:search-endpoint="">
+        <input refs="entity-selector@input" type="hidden" name="entity-selector" value="">
+        <input refs="entity-selector@search" type="text" placeholder="Поиск" >
+        <div class="text-center loading" refs="entity-selector@loading"><div class="loading-container">
+    <div></div>
+    <div></div>
+    <div></div>
+    </div></div>
+        <div refs="entity-selector@results"></div>
+    </div>
+</div>            <div class="popup-footer">
+                <button refs="entity-selector-popup@select" type="button" disabled class="button">Выбрать</button>
+            </div>
+        </div>
+    </div>
+</div>            </div>
+        </div>
+    </div>
+
+    </div>
+
+    
+    <div component="back-to-top" class="back-to-top print-hidden">
+        <div class="inner">
+            <svg class="svg-icon" data-icon="chevron-up" role="presentation"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6z"/><path fill="none" d="M0 0h24v24H0z"/></svg> <span>Наверх</span>
+        </div>
+    </div>
+
+            <script src="../dist/app.js@version=v24.10.1" type="module" nonce="OVueIt1DzLU6LXUL8AbLB88h"></script>
+        
+    </body>
+</html>
